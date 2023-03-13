@@ -11,7 +11,7 @@ int[] CreateRandomArray(int length)
     Random random = new Random();
     for (int i = 0; i < length; i++)
     {
-        array[i] = random.Next(100, 999);
+        array[i] = random.Next(-100, 100);
     }
     return array;
 }
