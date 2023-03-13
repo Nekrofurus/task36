@@ -18,7 +18,7 @@ int[] CreateRandomArray(int length)
 int SummOddPosNumber(int[] array)
 {
     int summ = 0;
-    for (int i = 0; i < length; i= i + 2)
+    for (int i = 1; i < length; i= i + 2)
     {
         summ = summ + array[i];
     }
